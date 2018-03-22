@@ -20,13 +20,12 @@
   text-shadow: 1px 1px 5px #000;
 }
 
-/*      SLIDESHOW STYLING           */
+/*      SLIDESHOW STYLING
 
-/* Slideshow container */
+
 .carousel-inner {
   position: relative;
   width: 100%;
-  height: 50%;
   overflow: hidden;
 }
 .wood {
@@ -38,3 +37,4 @@
 .farm {
   background-image: url('../img/farm-2.jpg');
 }
+*/

@@ -21,20 +21,15 @@
   text-shadow: 1px 1px 5px #000;
 }
 
-/*      SLIDESHOW STYLING
-
+/*  ---------------    SLIDESHOW STYLING -----------------------  */
 .carousel-inner {
+  height: 450px;
   position: relative;
-  width: 100%;
-  overflow: hidden;
 }
-.wood {
-  background-image: url('../img/wood-2.jpg');
+
+
+.carousel > .item {
+width: 100%;
+position: relative;
+bottom: 225px;
 }
-.restaurant {
-  background-image: url('../img/restaurant-2.jpg');
-}
-.farm {
-  background-image: url('../img/farm-2.jpg');
-}
-*/

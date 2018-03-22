@@ -1,8 +1,9 @@
 /*=======nav bar styles=====*/
 .navbar-default {
+  position:absolute;
+  z-index:10;
   background-color: transparent;
   border: none;
-  position: fixed;
   top: 0px;
   width: 100%;
 }
@@ -21,7 +22,6 @@
 }
 
 /*      SLIDESHOW STYLING
-
 
 .carousel-inner {
   position: relative;

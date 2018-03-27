@@ -8,13 +8,16 @@
     color: #fff;
     background-color: rgba(0, 0, 0, 0.6);
     text-shadow: 1px 1px 5px #000;
-  
+
     /* shadow: drop down, to side 1 pixel*/
 }
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
   text-shadow: 1px 1px 5px #000;
+  color: #f65239;
+  background-color: rgba(0, 0, 0, 0.25);
+}
 }
 
 .top {

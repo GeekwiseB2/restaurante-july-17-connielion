@@ -16,8 +16,8 @@
     /* shadow: drop down, to side 1 pixel*/
 }
 
-.navbar-default .navbar-nav>li>a {
-  color: #fff;
+.navbar-nav>li>a {
+  color: #F8512F;
   text-shadow: 1px 1px 5px #000;
 
 }
@@ -45,7 +45,7 @@ position: relative;
 width: 240px;
 }
 
-.flex-slide {
+.flex-slide { /* SLIDE 1 LOGO POSITIONING */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,8 +78,14 @@ width: 240px;
 .learnbtn {
   padding: 10px;
   border-radius: 4px;
+  background-color: #F8512F;
+  color: #fff;
+}
+.learnbtn:hover {
+  background-color: #d34326;
+  color: #fff;
 }
 
-.restcap {
-  padding-bottom: 50px;
+.carousel-caption {
+  padding-bottom: 60px;
 }

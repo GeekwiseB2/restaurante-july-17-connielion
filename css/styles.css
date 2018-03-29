@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:900|Raleway:400,700');
+
 /*=======nav bar styles=====*/
 .navbar-default {
   position:absolute;
@@ -29,9 +31,12 @@
   position: relative;
 }
 
-
 .carousel > .item {
 width: 100%;
 position: relative;
 bottom: 225px;
+}
+
+.ourstory {
+  margin-top: 100px;
 }

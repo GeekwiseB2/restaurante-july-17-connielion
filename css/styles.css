@@ -1,3 +1,19 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:900|Raleway:400,700');
+
+/* UNIVERSAL STYLES */
+.lobster-text {
+font-family: 'Lobster',cursive;
+}
+
+.orange-text {
+  color: #F8512F;
+}
+
+.white-text {
+  color: #fff;
+}
+
 /*=======nav bar styles=====*/
 .navbar-default {
   position:absolute;
@@ -29,9 +45,33 @@
   position: relative;
 }
 
-
 .carousel > .item {
 width: 100%;
 position: relative;
 bottom: 225px;
+}
+
+/* OUR STORY SECTION */
+#our-story {
+  margin: 60px auto;
+  height: 400px;
+}
+
+
+#our-story .lobster-text {
+font-family: 'Lobster',cursive;
+text-shadow: 1px 1px 2px #000;
+font-size: 6em;
+}
+
+.year-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 13em;
+  position: absolute;
+  color: rgba(0, 0, 0, .12);
+}
+
+#our-story p {
+  font-weight: 200;
+
 }

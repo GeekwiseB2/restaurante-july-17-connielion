@@ -1,37 +1,83 @@
-/*=======nav bar styles=====*/
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:900|Raleway:400,700');
+
+/* UNIVERSAL STYLES */
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.orange-text {
+  color: #F8512F;
+}
+
+.white-text {
+  color: #fff;
+}
+
+/* NAVBAR STYLES */
 .navbar-default {
-  position:absolute;
-  z-index:10;
   background-color: transparent;
   border: none;
-  top: 0px;
-  width: 100%;
 }
-      /* NAV BAR LINK STYLING */
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-shadow: 1px 1px 5px #000;
 
-    /* shadow: drop down, to side 1 pixel*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .6);
+  text-shadow: 1px 1px 1px #000;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
-  text-shadow: 1px 1px 5px #000;
-  color: #f65239;
-  background-color: rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 1px 1px #000;
 }
 
-/*  ---------------    SLIDESHOW STYLING -----------------------  */
-.carousel-inner {
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #F65239;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+/* CAROUSEL STYLES */
+.item {
   height: 450px;
-  position: relative;
+  background-size: cover;
+  background-position: center;
 }
 
+.wood-bg {
+  background-image: url('../img/wood-2.jpg');
+}
 
-.carousel > .item {
-width: 100%;
-position: relative;
-bottom: 225px;
+.seating-bg {
+  background-image: url('../img/restaurant-2.jpg');
+}
+
+.hero-logo {
+  width: 240px;
+}
+
+.flex-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Our Story Section */
+#our-story {
+  margin: 120px auto;
+}
+
+#our-story .lobster-text {
+  font-size: 6em;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.year-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 13em;
+  position: absolute;
+  color: rgba(0, 0, 0, .12);
+}
+
+#our-story p {
+  font-weight: 200;
 }

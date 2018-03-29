@@ -35,3 +35,9 @@ width: 100%;
 position: relative;
 bottom: 225px;
 }
+
+/* review SECTION */
+
+#review {
+  background-image: url('restaurante-complete/img/food_review.jpg');
+}

@@ -100,14 +100,19 @@ font-size: 6em;
     /* shadow: drop down, to side 1 pixel*/
 }
 
-.navbar-default .navbar-nav>li>a {
-  color: #fff;
+.navbar-nav>li>a {
+  color: #F8512F;
   text-shadow: 1px 1px 5px #000;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover
+{
   color: #f65239;
   background-color: rgba(0, 0, 0, 0.25);
 }
 
-/*  ---------------    SLIDESHOW STYLING -----------------------  */
+/*  ---------------   CAROUSEL STYLING -----------------------  */
 .carousel-inner {
   height: 450px;
   position: relative;
@@ -117,7 +122,56 @@ font-size: 6em;
 .carousel > .item {
 width: 100%;
 position: relative;
-bottom: 225px;
+
+}
+
+.hero-logo {
+width: 240px;
+}
+
+.flex-slide { /* SLIDE 1 LOGO POSITIONING */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.item {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+
+.wood-bg {
+  background-image: url('../img/wood-2.jpg');
+}
+
+.restaurant-bg {
+  background-image: url('../img/restaurant-2.jpg');
+  background-position: center;
+}
+
+
+.farm-bg {
+  background-image: url('../img/farm-2.jpg');
+
+
+}
+
+.learnbtn {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #F8512F;
+  color: #fff;
+}
+.learnbtn:hover {
+  background-color: #d34326;
+  color: #fff;
+}
+
+.carousel-caption {
+  padding-bottom: 60px;
 }
 
 /* review SECTION */

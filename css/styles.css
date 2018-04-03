@@ -1,3 +1,24 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:900|Raleway:400,700');
+
+/* UNIVERSAL STYLES */
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.orange-text {
+  color: #F8512F;
+}
+
+.white-text {
+  color: #fff;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+
 /*=======nav bar styles=====*/
 .navbar-default {
   position:absolute;
@@ -88,4 +109,97 @@ width: 240px;
 
 .carousel-caption {
   padding-bottom: 60px;
+}
+
+/* end carousel */
+/* OUR STORY SECTION */
+#our-story {
+  margin: 60px auto;
+  height: 600px;
+}
+
+
+#our-story .lobster-text {
+font-family: 'Lobster',cursive;
+text-shadow: 1px 1px 2px #000;
+font-size: 6em;
+}
+
+.year-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 13em;
+  position: absolute;
+  color: rgba(0, 0, 0, .12);
+}
+
+#our-story p {
+  font-weight: 200;
+
+}
+
+/* review SECTION */
+
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0px;
+}
+
+.review-box {
+  background-color: rgba(0,0,0,.6);
+  border-radius: 6px;
+}
+
+.review-box h1 {
+  text-shadow: 1px 1px 2px #000;
+  font-size: 5.5em;
+}
+
+.review-box p {
+  font-size: 32px;
+}
+
+/* MENU SECTION */
+
+#menu {
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 50px;
+}
+
+#menu .nav li a:hover {
+  background-color: rgba(255, 255, 255, .1);
+  border: none;
+}
+
+#menu .col-sm-3 {
+  background-color: #fff;
+  padding: 20px 15px;
+}
+
+#menu h1 {
+  font-size: 6em;
+}
+
+/*FORM STYLING*/
+#contact {
+  background: repeating-linear-gradient(to right, #F8512F, blue, purple, black);
+}
+
+
+form {
+  border: 1px solid #fff;
+  padding: 10px;
+  margin: 80px;
+}
+
+form label::after {
+  content: "*";
+  color: red;
+}
+
+.btn-default {
+  border-radius: 8px;
 }

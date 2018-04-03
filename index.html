@@ -12,7 +12,7 @@
 	<script src="js/bootstrap.min.js"></script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- ===============================NAV BAR START========================-->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -32,10 +32,10 @@
       <ul class="nav navbar-nav navbar-right">
 				<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
 					<!--NON-ACTIVE NAV BAR LINKS-->
-				<li><a href="#">Our Story</a></li>
-        <li><a href="#">Review</a></li>
-				<li><a href="#">Menu</a></li>
-        <li><a href="#">Contact Us</a></li>
+				<li><a href="#our-story">Our Story</a></li>
+        <li><a href="#review">Review</a></li>
+				<li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -51,7 +51,7 @@
 		 </ol>
 
 		 <!-- Wrapper for slides -->
-		 <div class="carousel-inner center-block">
+		 <div class="carousel-inner center-block" id="home">
 
 			 <div class="item active wood-bg">
 					<div class="flex-slide">
@@ -89,11 +89,155 @@
 			 <span class="sr-only">Next</span>
 		 </a>
 	 </div>
-
+</div>
 
 
 
 <!-- ===============SLIDESHOW ENDS================ -->
+
+<div class="container" id="our-story">
+	<div class="row">
+		<div class="col-sm-6">
+			<!-- TITLE STARTS-->
+				<h1 class="lobster-text orange-text">Our Story</h1><!--- MENU HAS THIS TEXT TOO! OOCSS-->
+				<!-- TITLE STARTS-->
+				<h2>One Man, One Dream</h2>
+		</div>
+		<div class="col-sm-6 text-justify">
+			<h1 class="year-text">1989</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas fugiat, dolores obcaecati libero iste possimus esse numquam deserunt explicabo ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, voluptas eaque corporis? Voluptatibus modi illo suscipit, minus rerum, beatae! Porro.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis vero at vitae aspernatur nisi. Consequatur repudiandae earum quaerat dolor minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ipsum hic dolorem, unde provident molestias.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam natus qui tempore distinctio ex corporis reiciendis aliquam dolorum sit facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, eos!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt itaque nobis, repellendus quidem tempora non saepe numquam quasi nemo quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, a!</p>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" id="review">
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2 review-box">
+			<h1 class="text-center lobster-text orange-text">Fresno Bee</h1>
+			<p class="white-text text-center white-text">"The freshest and best ingredients come together to make some of the best food I have ever ate. You can really taste the Central Valley in every bite"</p>
+		</div>
+	</div>
+</div>
+<!--MENU SECTION STARTS-->
+<div class="container-fluid" id="menu">
+	<div class="row">
+		<div class="col-sm-10 col-sm-offset-1 text-center">
+			<h1 class="white-text lobster-text">Menu</h1>
+		<!-- MENU TABS START -->
+		<div>
+				<ul class="nav nav-tabs nav-justify" role="tablist">
+					<li role="presentation" class="active"><a href="#appetizers" aria-controls="home" role="tab" data-toggle="tab" class="orange-text">Appetizer</a></li>
+					<li role="presentation"><a href="#profile" aria-controls="#lunch" role="tab" data-toggle="tab" class="orange-text">Lunch</a></li>
+					<li role="presentation"><a href="#messages" aria-controls="#dinner" role="tab" data-toggle="tab" class="orange-text">Dinner</a></li>
+					<li role="presentation"><a href="#settings" aria-controls="s#dessert" role="tab" data-toggle="tab" class="orange-text">Dessert</a></li>
+				</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="appetizers">
+	 							<div class="row">
+									<!--ITEMS BEGIN -->
+									<!-- COL 1-->
+	 								<div class="col-sm-3 col-xs-6">
+											<!-- ITEM 1 -->
+											<img src="img/dip.jpg" alt="dip" class="img-responsive img-thumbnail">
+											<h3>appetizer 1</h3>
+											<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas adipisci beatae error, aliquam quibusdam saepe nobis obcaecati similique ipsum quis dolor, officia voluptates dicta. Consectetur dicta laboriosam ad adipisci soluta.</p>
+	 								</div>
+									<!-- COL 2-->
+	 								<div class="col-sm-3 col-xs-6">
+											<!-- ITEM 2 -->
+											<img src="img/eggplant.jpg" alt="eggplant" class="img-responsive img-thumbnail">
+											<h3>appetizer 2</h3>
+											<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam totam unde sapiente quos ad. Facere sapiente provident sit neque voluptatem cum repudiandae dolore enim, fugiat repellat nihil, itaque fugit eum.</p>
+	 								</div>
+									<!-- COL 3-->
+	 								<div class="col-sm-3 col-xs-6">
+											<!-- ITEM 3 -->
+											<img src="img/meat.jpg" alt="meat" class="img-responsive img-thumbnail">
+											<h3>appetizer 3</h3>
+											<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim delectus iusto soluta, excepturi nisi optio officiis corporis maxime nulla facere, autem repellat iste, eius minus. Numquam temporibus, ipsam cum libero.</p>
+	 								</div>
+									<!-- COL 4-->
+	 								<div class="col-sm-3 col-xs-6">
+	 											<!-- ITEM 4 -->
+												<img src="img/bruschetta.jpg" alt="bruschetta" class="img-responsive img-thumbnail">
+												<h3>appetizer 3</h3>
+												<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus laboriosam soluta enim animi alias quia nemo eum laborum architecto minus molestiae magni facilis quasi voluptas est reiciendis ut suscipit, provident.</p>
+	 								</div>
+	 							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="lunch">
+
+						</div>
+						<div role="tabpanel" class="tab-pane" id="dinner">
+
+						</div>
+						<div role="tabpanel" class="tab-pane" id="dessert">
+
+						</div>
+					</div>
+					</div>
+					<!-- MENU TABS END -->
+		</div>
+	</div>
+</div>
+<!--MENU SECTION ENDS-->
+<!--CONTACT-->
+<div class="container-fluid white-text" id="contact">
+	<div class="row">
+		<div class="col-sm-10">
+			<h1>Contact Us</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quis ut et sapiente ad suscipit reprehenderit cum, natus earum animi quaerat eligendi, autem blanditiis commodi eaque reiciendis maxime neque, cumque.</p>
+		</div>
+	</div>
+	<div class="row">
+		<!--CONTACT FORMS STARTS-->
+		<div class="col-sm-6">
+			<form action="">
+				<div class="form-group">
+					<label for="name_input">Name:</label><!--NAME INPUT START-->
+					<input type="text" name="" class="form-control" id="name_input" placeholder="First and Last Name">
+				</div>
+				<div class="form-group">
+    			<label for="email_input">Email:</label>
+    		<input type="email" class="form-control" id="email_input" placeholder="Email">
+  			</div>
+				<div class="form-group">
+    			<label for="subject_input">Subject: </label>
+    		<input type="text" class="form-control" id="subject_input" placeholder="Subject">
+  			</div>
+				<div class="form-group">
+  					<label for="message">Message:</label>
+  					<textarea class="form-control" cols="30" rows="10" id="message"></textarea>
+				</div>
+				<label class="checkbox-inline">
+  				<input type="checkbox" id="inlineCheckbox1" value="option1">I'm not a robot...
+				</label>
+				<button class="btn-default center-block">Send Message!</button>
+
+
+			</form>
+		</div>
+		<!--CONTACT FORM ENDS-->
+		<div class="col-sm-6">
+				<h1>Restaurante</h1>
+				<address>
+					123 Fulton St
+					<br/>
+					Fresno, CA 93728
+					<br/>
+					P.(123)456-7890
+
+				</address>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.892419249835!2d-119.78318164918028!3d36.72514487952239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e2ee548fb59%3A0x8501c59bd1dab4e2!2s123+Fulton+St%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1522722712399" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+<!--CONTACT ENDS-->
+<!--JAVASCRIPT-->
 
 </body>
 </html>

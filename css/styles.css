@@ -185,7 +185,7 @@ font-size: 6em;
 
 /*FORM STYLING*/
 #contact {
-  background: repeating-linear-gradient(to right, #F8512F, blue, purple, black);
+  background: repeating-linear-gradient(#F8512F, purple, black);
 }
 
 
@@ -198,6 +198,16 @@ form {
 form label::after {
   content: "*";
   color: red;
+}
+
+.no-asterisk::after {
+  content: " ";
+}
+
+.margin-text {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
 }
 
 .btn-default {
